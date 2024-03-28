@@ -22,11 +22,12 @@ This repository is dedicated to the the tasks from Holiday Check application pro
 > 8. **Based on question one. Show the cause of the unusual event.**  
 > 
 > Create a daily automated job that updates question 5 daily and creates an output that could be sent to recipients who have not seen the data before.
+[Your text here](URL "Optional title")
 
 
-The deatiled solutions and codes for the tasks can be found in the following files in the repository:
-1. TaskResults.ipynb - Contains solutions to questions 1-8
-2. theGuardianJob.py - Contains the script for the daily automated job. This script can be run via a scheduler to run everyday. Scheduling infomation is given below.
+The detailed solutions and codes for the tasks can be found in the following files in the repository:
+1. [TaskResults.ipynb](TaskResults.ipynb) - Contains solutions to questions 1-8
+2. [theGuardianJob.py](theGuardianJob.py) - Contains the script for the daily automated job. This script can be run via a scheduler to run everyday. Scheduling infomation is given below.
 
 For quick reference the solutions have been given below:
 
