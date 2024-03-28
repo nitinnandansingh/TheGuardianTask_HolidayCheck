@@ -36,10 +36,10 @@ For quick reference the solutions have been given below:
 3. There have been more than 4 articles posted about Justin Trudeau since 01.01.2018 per day on an average. Exact number =  4.579468707789284
 4. Section 'World news' has most number of posts with 1070 articles
 5. Evolution of Number of Articles overtime:
-![Evolution of number of articles since 2018](/Users/nitinnandansingh/Downloads/HolidayCheckPlot1.png)
+![Evolution of number of articles since 2018](HolidayCheckPlot1.png)
 6. We can see some unusual spikes in the plot indicating the rise of number of articles.
 7. These unusually high number of articles can be statistically measured by calculating z-score values. 
-![Evolution of number of articles since 2018](/Users/nitinnandansingh/Downloads/HolidayCheckPlot2.png)
+![Evolution of number of articles since 2018](HolidayCheckPlot2.png)
 8. There were spikes in 2018 and 2020, due to news about Trudeau related to Trump and Covid19 respectively. In the notebook you can find the WordCloud illustrating this as well.
 
 
