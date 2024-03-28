@@ -24,9 +24,25 @@ This repository is dedicated to the the tasks from Holiday Check application pro
 > Create a daily automated job that updates question 5 daily and creates an output that could be sent to recipients who have not seen the data before.
 
 
-The solution to the tasks can be found in the following files in the repository:
+The deatiled solutions and codes for the tasks can be found in the following files in the repository:
 1. TaskResults.ipynb - Contains solutions to questions 1-8
 2. theGuardianJob.py - Contains the script for the daily automated job. This script can be run via a scheduler to run everyday. Scheduling infomation is given below.
+
+For quick reference the solutions have been given below:
+
+## Solutions
+1. Articles about Justin Trudeau were fetched using The Guardian API.
+2. Number of articles fetched (1.1.2018 until today(27.03.2024)) - 10171
+3. There have been more than 4 articles posted about Justin Trudeau since 01.01.2018 per day on an average. Exact number =  4.579468707789284
+4. Section 'World news' has most number of posts with 1070 articles
+5. Evolution of Number of Articles overtime:
+![Evolution of number of articles since 2018](/Users/nitinnandansingh/Downloads/HolidayCheckPlot1.png)
+6. We can see some unusual spikes in the plot indicating the rise of number of articles.
+7. These unusually high number of articles can be statistically measured by calculating z-score values. 
+![Evolution of number of articles since 2018](/Users/nitinnandansingh/Downloads/HolidayCheckPlot2.png)
+8. There were spikes in 2018 and 2020, due to news about Trudeau related to Trump and Covid19 respectively. In the notebook you can find the WordCloud illustrating this as well.
+
+
 
 ## Daily Automated Job - The Guardian Article Fetcher and Notifier
 
@@ -36,7 +52,7 @@ This Python script automates the fetching of articles from The Guardian's API, p
 
 #### `fetch_articles`
 
-Fetches articles based on a query and date range.
+Fetches articles based on a search query and date range.
 
 - **Parameters**:
   - `api_key`: API key for The Guardian.
